@@ -14,6 +14,7 @@ Post-harvest facility capacity planning for the Iloilo Rice Processing Complex (
 ## Quick start
 
 ```sh
+pnpm db:reset   # reseed the database with demo data
 pnpm install
 pnpm db:start
 cp .env.example .env.local   # fill keys from `pnpm db:status`
